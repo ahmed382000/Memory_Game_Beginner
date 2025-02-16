@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <button>Start Game</button>
+        <div class="info">
+            <div class="name">Hello: <span></span></div>
+            <div class="tries">Wrong Tries: <span id='tries'>0</span></div>
+        </div>
+        <div class="memory-game no-clicking">
+            <div class="block">
+                <div class="front"><img src="https://placehold.co/300/FFB6C1/000/png" data-photo="1" alt=""></div>
+                <div class="back">?</div>
+            </div>
+            <div class="block">
+                <div class="front"><img src="https://placehold.co/300/FFB6C1/000/png" data-photo="1" alt=""></div>
+                <div class="back">?</div>
+            </div>
+
+            <div class="block">
+                <div class="front"><img src="https://placehold.co/300/ADD8E6/000/png" data-photo="2" alt=""></div>
+                <div class="back">?</div>
+            </div>
+            <div class="block">
+                <div class="front"><img src="https://placehold.co/300/ADD8E6/000/png" data-photo="2" alt=""></div>
+                <div class="back">?</div>
+            </div>
+
+            <div class="block">
+                <div class="front"><img src="https://placehold.co/300/90EE90/000/png" data-photo="3" alt=""></div>
+                <div class="back">?</div>
+            </div>
+            <div class="block">
+                <div class="front"><img src="https://placehold.co/300/90EE90/000/png" data-photo="3" alt=""></div>
+                <div class="back">?</div>
+            </div>
+
+            <div class="block">
+                <div class="front"><img src="https://placehold.co/300/FFFFE0/000/png" data-photo="4" alt=""></div>
+                <div class="back">?</div>
+            </div>
+            <div class="block">
+                <div class="front"><img src="https://placehold.co/300/FFFFE0/000/png" data-photo="4" alt=""></div>
+                <div class="back">?</div>
+            </div>
+
+            <div class="block">
+                <div class="front"><img src="https://placehold.co/300/FFA07A/000/png" data-photo="5" alt=""></div>
+                <div class="back">?</div>
+            </div>
+            <div class="block">
+                <div class="front"><img src="https://placehold.co/300/FFA07A/000/png" data-photo="5" alt=""></div>
+                <div class="back">?</div>
+            </div>
+
+            <div class="block">
+                <div class="front"><img src="https://placehold.co/300/E0FFFF/000/png" data-photo="6" alt=""></div>
+                <div class="back">?</div>
+            </div>
+            <div class="block">
+                <div class="front"><img src="https://placehold.co/300/E0FFFF/000/png" data-photo="6" alt=""></div>
+                <div class="back">?</div>
+            </div>
+
+            <div class="block">
+                <div class="front"><img src="https://placehold.co/300/F08080/000/png" data-photo="7" alt=""></div>
+                <div class="back">?</div>
+            </div>
+            <div class="block">
+                <div class="front"><img src="https://placehold.co/300/F08080/000/png" data-photo="7" alt=""></div>
+                <div class="back">?</div>
+            </div>
+
+            <div class="block">
+                <div class="front"><img src="https://placehold.co/300/FFDEAD/000/png" data-photo="8" alt=""></div>
+                <div class="back">?</div>
+            </div>
+            <div class="block">
+                <div class="front"><img src="https://placehold.co/300/FFDEAD/000/png" data-photo="8" alt=""></div>
+                <div class="back">?</div>
+            </div>
+
+            <div class="block">
+                <div class="front"><img src="https://placehold.co/300/F0E68C/000/png" data-photo="9" alt=""></div>
+                <div class="back">?</div>
+            </div>
+            <div class="block">
+                <div class="front"><img src="https://placehold.co/300/F0E68C/000/png" data-photo="9" alt=""></div>
+                <div class="back">?</div>
+            </div>
+
+            <div class="block">
+                <div class="front"><img src="https://placehold.co/300/D8BFD8/000/png" data-photo="10" alt=""></div>
+                <div class="back">?</div>
+            </div>
+            <div class="block">
+                <div class="front"><img src="https://placehold.co/300/D8BFD8/000/png" data-photo="10" alt=""></div>
+                <div class="back">?</div>
+            </div>
+
+        </div>
+    </div>
+
+    <audio src="audio/powerup-success.wav" id="correct"></audio>
+    <audio src="audio/Error-sound-effect.mp3" id="wrong"></audio>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
